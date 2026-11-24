@@ -1,0 +1,15 @@
+__pycache__/
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+models/*
+!models/DNN_optimise.keras
+!models/DNN_Student_Performance.keras
+!models/CNN_CIFAR10_optimise.keras
+!models/modele_pneumonia_final.keras
+!models/bank_encoders.joblib
+!models/bank_scaler.joblib
+!models/student_encoder.joblib
+!models/student_scaler.joblib
